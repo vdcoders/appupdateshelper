@@ -7,7 +7,6 @@ plugins {
     alias(libs.plugins.kotlin.android)
 }
 version = "0.0.2"
-
 android {
     namespace = "com.inhot.appupdateshelper"
     compileSdk = libs.versions.compileSdk.get().toInt()
